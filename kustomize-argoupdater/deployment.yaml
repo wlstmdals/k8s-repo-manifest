@@ -13,7 +13,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: docker.io/dbgurum/argoupdater:1.0
+      - image: sushijin/myweb:10.0
         name: nginx
         ports:
         - containerPort: 80
